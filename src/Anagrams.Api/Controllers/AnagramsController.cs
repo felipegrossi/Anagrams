@@ -1,7 +1,7 @@
-using ApplicationCore.Services.Interfaces;
+using Anagrams.Core.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace AnagramAPI.Controllers
+namespace Anagrams.Core.Controllers
 {
     [ApiController]
     [Route("[controller]")]

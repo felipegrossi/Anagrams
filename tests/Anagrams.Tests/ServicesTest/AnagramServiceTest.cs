@@ -1,5 +1,5 @@
-﻿using ApplicationCore.Services;
-using ApplicationCore.Services.Interfaces;
+﻿using Anagrams.Core.Services;
+using Anagrams.Core.Services.Interfaces;
 using System.Collections.Generic;
 using Xunit;
 

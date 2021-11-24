@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Infrastructure.WordsFile
+namespace Anagrams.Infrastructure.WordsFile
 {
     public class WordsFileHelper
     {
@@ -15,7 +15,7 @@ namespace Infrastructure.WordsFile
             if (_words != null)
                 return _words;
 
-            var fileContent = await GetResourceContent("Infrastructure.WordsFile.En.txt");
+            var fileContent = await GetResourceContent("Anagrams.Infrastructure.WordsFile.En.txt");
 
             _words = fileContent.Split(Environment.NewLine)
                 .Select(s => s.Trim())

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApplicationCore.Services.Interfaces
+namespace Anagrams.Core.Services.Interfaces
 {
     public interface IAnagramService
     {

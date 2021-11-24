@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnagramAPI", "src\AnagramAPI\AnagramAPI.csproj", "{2CC64A88-E951-4A3C-89A4-DF64A1D9FA39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anagrams.Api", "src\Anagrams.Api\Anagrams.Api.csproj", "{2CC64A88-E951-4A3C-89A4-DF64A1D9FA39}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F544EBAD-A36F-4937-B6B4-880190B8EA5F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AB464E4C-816F-40A4-8B9B-4744F4C44168}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationCore", "src\ApplicationCore\ApplicationCore.csproj", "{665F8F5B-C4DD-4F2E-8A31-96C8A1B894BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anagrams.Core", "src\Anagrams.Core\Anagrams.Core.csproj", "{665F8F5B-C4DD-4F2E-8A31-96C8A1B894BD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{288681F6-60A9-4455-98A3-9BAC4499DD83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anagrams.Infrastructure", "src\Anagrams.Infrastructure\Anagrams.Infrastructure.csproj", "{288681F6-60A9-4455-98A3-9BAC4499DD83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagrams.Tests", "tests\Anagrams.Tests\Anagrams.Tests.csproj", "{C776FD5D-05AD-4798-9333-688DC9F7159B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anagrams.Tests", "tests\Anagrams.Tests\Anagrams.Tests.csproj", "{C776FD5D-05AD-4798-9333-688DC9F7159B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

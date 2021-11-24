@@ -1,11 +1,11 @@
-﻿using ApplicationCore.Services.Interfaces;
+﻿using Anagrams.Core.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ApplicationCore.Services
+namespace Anagrams.Core.Services
 {
     public class AnagramService : IAnagramService
     {
