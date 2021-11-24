@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anagrams.Infrastructure", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anagrams.Tests", "tests\Anagrams.Tests\Anagrams.Tests.csproj", "{C776FD5D-05AD-4798-9333-688DC9F7159B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anagrams.Web", "src\Anagrams.Web\Anagrams.Web.csproj", "{69638B96-5A76-4247-8E29-5E3BBEA4F45A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{C776FD5D-05AD-4798-9333-688DC9F7159B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C776FD5D-05AD-4798-9333-688DC9F7159B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C776FD5D-05AD-4798-9333-688DC9F7159B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69638B96-5A76-4247-8E29-5E3BBEA4F45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69638B96-5A76-4247-8E29-5E3BBEA4F45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69638B96-5A76-4247-8E29-5E3BBEA4F45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69638B96-5A76-4247-8E29-5E3BBEA4F45A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{665F8F5B-C4DD-4F2E-8A31-96C8A1B894BD} = {F544EBAD-A36F-4937-B6B4-880190B8EA5F}
 		{288681F6-60A9-4455-98A3-9BAC4499DD83} = {F544EBAD-A36F-4937-B6B4-880190B8EA5F}
 		{C776FD5D-05AD-4798-9333-688DC9F7159B} = {AB464E4C-816F-40A4-8B9B-4744F4C44168}
+		{69638B96-5A76-4247-8E29-5E3BBEA4F45A} = {F544EBAD-A36F-4937-B6B4-880190B8EA5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D189A1FA-53EA-4016-9C61-AB4E6426D5C3}
